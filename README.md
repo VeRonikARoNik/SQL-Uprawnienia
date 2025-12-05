@@ -2,11 +2,15 @@
 
 Zadanie 1
 ```
+CREATE DATABASE Projekty;
+USE Projekty;
+
 CREATE TABLE Zadania (
     id INT PRIMARY KEY,
     nazwa VARCHAR(100),
     status VARCHAR(20)
 );
+
 ```
 
 1. Wykonaj następujące polecenia:
