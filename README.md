@@ -11,19 +11,18 @@ CREATE TABLE Zadania (
 
 1. Wykonaj następujące polecenia:
 
-Utwórz użytkownika:
-login: kierownik
-hasło: kier2025
+    Utwórz użytkownika:
+    login: kierownik
+    hasło: kier2025
 
 2. Nadaj użytkownikowi kierownik uprawnienia:
 
-SELECT
+    SELECT
 
-INSERT
+    INSERT
 
-UPDATE
-do tabeli Zadania,
-z możliwością dalszego przekazywania tych uprawnień (WITH GRANT OPTION).
+    UPDATE
+do tabeli Zadania, z możliwością dalszego przekazywania tych uprawnień (WITH GRANT OPTION).
 
 3. Utwórz użytkownika:
 login: asystent
