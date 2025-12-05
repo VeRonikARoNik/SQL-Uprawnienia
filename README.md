@@ -33,13 +33,13 @@ hasło: asys2025
 
 5. Zaloguj się jako asystent i sprawdź:
 
-czy możesz wykonać INSERT,
+   czy możesz wykonać INSERT,
 
-czy możesz przekazywać uprawnienia dalej (powinien pojawić się błąd).
+   czy możesz przekazywać uprawnienia dalej (powinien pojawić się błąd).
 
-Odbierz użytkownikowi kierownik możliwość delegowania uprawnień (GRANT OPTION).
+6. Odbierz użytkownikowi kierownik możliwość delegowania uprawnień (GRANT OPTION).
 
-Sprawdź, co stało się z uprawnieniami użytkownika asystent (powinny zostać cofnięte).
+7. Sprawdź, co stało się z uprawnieniami użytkownika asystent (powinny zostać cofnięte).
 
 ```
 -- Tworzenie użytkownika kierownik
